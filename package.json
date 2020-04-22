@@ -9,7 +9,7 @@
   "scripts": {
     "cy:dev": "yarn cypress open",
     "cy:dev:debug": "DEBUG=cypress:* yarn cypress open",
-    "cy:run": "sh ./runCi.sh",
+    "cy:ci": "sh ./runCi.sh",
     "lint": "yarn eslint ./cypress",
     "lint:fix": "yarn eslint ./cypress --fix"
   },
