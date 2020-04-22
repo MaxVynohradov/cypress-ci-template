@@ -1,18 +1,16 @@
 module.exports = {
   extends: [
-    'airbnb',
     'plugin:cypress/recommended',
     'plugin:chai-friendly/recommended',
+    "plugin:mocha/recommended",
   ],
-  parser: 'babel-eslint',
   rules: {
     'semi': [2, "always"],
-    'react/jsx-key': 2,
-    'react/no-unused-prop-types': 2,
     'object-curly-spacing': ['error', 'always'],
-    'react/jsx-filename-extension': ['error', { 'extensions': ['.jsx', '.js'] }],
-    'cypress/no-assigning-return-values': 'error',
-    'cypress/no-unnecessary-waiting': 'error',
+    'mocha/no-mocha-arrows': 'off',
+    'mocha/no-sibling-hooks': 'off',
+    'cypress/no-assigning-return-values': 'warn',
+    'cypress/no-unnecessary-waiting': 'warn',
     'cypress/assertion-before-screenshot': 'warn',
     'cypress/no-force': 'warn',
   },
