@@ -1,0 +1,9 @@
+{
+  "name": "cypress-ci-template",
+  "version": "1.0.0",
+  "description": "Template for cypress with AWS CodeBuild and S3 integration",
+  "main": "index.js",
+  "author": "Maxim Vynohradov",
+  "license": "MIT",
+  "private": true
+}
