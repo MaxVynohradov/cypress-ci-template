@@ -13,10 +13,13 @@ Template for cypress with AWS CodeBuild and S3 integration
 
 Docs: https://docs.cypress.io/guides/guides/environment-variables.html#Option-2-cypress-env-json
 
+### !!! Important: don't add to name of test cases `""`, coz it break adding images to html report
+
 
 ### About running test on CI in several browsers:
 
 1. Change `--browser chrome` in `runCi.sh` file to another flag value, that available here: https://docs.cypress.io/guides/guides/launching-browsers.html#Firefox-Browsers-beta
+2. As the result you will have `report` folder in the root of project, with: 1) html report 2) video records 3) screenshots
 
 
 ### About linter:
