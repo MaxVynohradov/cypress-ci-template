@@ -682,6 +682,14 @@ cypress-localstorage-commands@^1.1.8:
   resolved "https://registry.npmjs.org/cypress-localstorage-commands/-/cypress-localstorage-commands-1.1.8.tgz#bca7593ad24e31630bb866f62b611530c586e510"
   integrity sha512-/nb0crIq47C+V1vE74nE5BtenEmWG6cXZR9hwnUMWqpeCIHmXFUjDtA5Sq+OVbQoxIUyMese4fTzHdmJKOmdkA==
 
+cypress-terminal-report@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/cypress-terminal-report/-/cypress-terminal-report-1.2.1.tgz#d1955eff456dea937ad6693c0e39ed69a5ab0f55"
+  integrity sha512-Kmtdw3h+eJo5OxDRD0OvrV8tZu3vj9T2BM1uGcoVtNFjH7zT5RIAaM0mQp00+Wp3heFVtcuBNIxx7fxm8TNtiw==
+  dependencies:
+    chalk "^3.0.0"
+    methods "^1.1.2"
+
 cypress@^4.4.1:
   version "4.4.1"
   resolved "https://registry.npmjs.org/cypress/-/cypress-4.4.1.tgz#f5aa1aa5f328f1299bff328103f7cbad89e80f29"
@@ -1780,6 +1788,11 @@ merge2@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.3.0.tgz#5b366ee83b2f1582c48f87e47cf1a9352103ca81"
   integrity sha512-2j4DAdlBOkiSZIsaXk4mTE3sRS02yBHAtfy127xRV3bQUFqXkjHCHLW6Scv7DwNRbIWNHH8zpnz9zMaKXIdvYw==
+
+methods@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
+  integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
 micromatch@^4.0.2:
   version "4.0.2"
