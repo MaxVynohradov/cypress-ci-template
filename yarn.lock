@@ -677,6 +677,11 @@ cross-spawn@^7.0.0:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+cypress-localstorage-commands@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.npmjs.org/cypress-localstorage-commands/-/cypress-localstorage-commands-1.1.8.tgz#bca7593ad24e31630bb866f62b611530c586e510"
+  integrity sha512-/nb0crIq47C+V1vE74nE5BtenEmWG6cXZR9hwnUMWqpeCIHmXFUjDtA5Sq+OVbQoxIUyMese4fTzHdmJKOmdkA==
+
 cypress@^4.4.1:
   version "4.4.1"
   resolved "https://registry.npmjs.org/cypress/-/cypress-4.4.1.tgz#f5aa1aa5f328f1299bff328103f7cbad89e80f29"
