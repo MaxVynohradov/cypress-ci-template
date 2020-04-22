@@ -13,3 +13,13 @@ Template for cypress with AWS CodeBuild and S3 integration
 
 Docs: https://docs.cypress.io/guides/guides/environment-variables.html#Option-2-cypress-env-json
 
+
+### About running test on CI in several browsers:
+
+1. Change `--browser chrome` in `runCi.sh` file to another flag value, that available here: https://docs.cypress.io/guides/guides/launching-browsers.html#Firefox-Browsers-beta
+
+
+### About linter:
+
+1. Added and configured eslint / .eslintrc.json with cypress-related plugins
+2. Added husky to run auto-fix on pre-commit hooks
