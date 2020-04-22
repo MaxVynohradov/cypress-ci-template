@@ -1,1 +1,5 @@
-{}
+{
+  "watchForFileChanges": true,
+  "restartBrowserBetweenSpecFiles": true,
+  "baseUrl": "http://localhost:3000/"
+}
